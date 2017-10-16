@@ -12,7 +12,7 @@ import {
   DELETE_PIN
 } from "./types";
 
-const API = "http://localhost:8000/api";
+const API = "https://pinitback.herokuapp.com/api";
 
 export function signInUser(token) {
   const request = axios.post(`${API}/auth/in`, { token });

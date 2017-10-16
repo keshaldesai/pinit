@@ -11,7 +11,7 @@ class MenuOut extends Component {
           <Menu.Item>
             <Button
               color="google plus"
-              href="http://localhost:8000/auth/google"
+              href="https://pinitback.herokuapp.com/auth/google"
             >
               <Icon name="google plus" /> Sign in with Google
             </Button>
