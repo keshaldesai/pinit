@@ -30,7 +30,7 @@ class App extends Component {
     this.props.signInUser(token).then(() => {
       if (parsedFlag) {
         localStorage.setItem("token", token);
-        return this.props.history.push("/profile");
+        return this.props.history.push("/pinit/profile");
       }
     });
   }
@@ -42,10 +42,10 @@ class App extends Component {
       <div className="app">
         <Header />
         <div className="main">
-          <Route exact path="/" component={Home} />
-          <Route exact path="/user/:googleId" component={UserPage} />
-          <Route exact path="/profile" component={requireAuth(Profile)} />
-          <Route exact path="/new" component={requireAuth(NewPin)} />
+          <Route exact path="/pinit" component={Home} />
+          <Route exact path="/pinit/user/:googleId" component={UserPage} />
+          <Route exact path="/pinit/profile" component={requireAuth(Profile)} />
+          <Route exact path="/pinit/new" component={requireAuth(NewPin)} />
         </div>
       </div>
     );
