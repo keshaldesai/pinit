@@ -13,10 +13,10 @@ class MenuIn extends Component {
   render() {
     return (
       <Menu pointing borderless fixed="top" fluid>
-        <Menu.Item name="home" as={Link} to="/" />
-        <Menu.Item name="my profile" as={Link} to="/profile" />
+        <Menu.Item name="home" as={Link} to="/pinit" />
+        <Menu.Item name="my profile" as={Link} to="/pinit/profile" />
         <Menu.Menu position="right">
-          <Menu.Item as={Link} to="/new">
+          <Menu.Item as={Link} to="/pinit/new">
             <Button className="new-button">PinIt!</Button>
           </Menu.Item>
           <Menu.Item>

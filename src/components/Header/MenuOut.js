@@ -6,7 +6,7 @@ class MenuOut extends Component {
   render() {
     return (
       <Menu pointing borderless fixed="top" fluid>
-        <Menu.Item name="home" as={Link} to="/" />
+        <Menu.Item name="home" as={Link} to="/pinit" />
         <Menu.Menu position="right">
           <Menu.Item>
             <Button
