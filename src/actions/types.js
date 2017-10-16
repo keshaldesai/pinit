@@ -1,0 +1,10 @@
+export const SIGN_IN = "SIGN_IN";
+export const SIGN_OUT = "SIGN_OUT";
+export const NO_TOKEN = "NO_TOKEN";
+export const GET_ALL = "GET_ALL";
+export const GET_ALL_USER = "GET_ALL_USER";
+export const GET_MINE = "GET_MINE";
+export const POST_PIN = "POST_PIN";
+export const LIKE_PIN = "LIKE_PIN";
+export const UNLIKE_PIN = "UNLIKE_PIN";
+export const DELETE_PIN = "DELETE_PIN";

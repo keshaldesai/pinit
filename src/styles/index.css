@@ -1,0 +1,65 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #343642;
+}
+
+.ui.menu {
+  background-color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.header {
+  overflow-wrap: break-word;
+}
+
+.main {
+  margin-top: 72px;
+}
+
+.new-button {
+  background-color: #348899 !important;
+  color: white !important;
+}
+
+.segment {
+  margin: 0 auto;
+}
+
+.pin-group {
+  margin: 0 auto 16px auto;
+}
+
+.ui.card {
+  margin: 0 0 16px 0;
+}
+
+.ui.negative.button:hover {
+  background-color: #962d3e;
+}
+
+@media screen and (max-width: 520px) {
+  .ui.menu {
+    font-size: 1rem;
+  }
+  .main {
+    margin-top: 64px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .ui.menu {
+    font-size: 0.9rem;
+  }
+  .main {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .ui.menu {
+    font-size: 0.8rem;
+  }
+  .main {
+    margin-top: 48px;
+  }
+}
