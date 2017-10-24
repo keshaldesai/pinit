@@ -40,7 +40,7 @@ class NewPin extends Component {
       });
     }
     this.props.postPin(token, url, title).then(() => {
-      this.props.history.push("/profile");
+      this.props.history.push("/pinit/profile");
     });
   };
 
