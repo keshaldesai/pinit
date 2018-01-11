@@ -1,14 +1,14 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import { Card, Image } from "semantic-ui-react";
-import SocialButton from "./SocialButton";
-import DeleteButton from "./DeleteButton";
-import ShareButton from "./ShareButton";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import { Card, Image } from 'semantic-ui-react';
+import SocialButton from './SocialButton';
+import DeleteButton from './DeleteButton';
+import ShareButton from './ShareButton';
 
 class PinCard extends Component {
   handleError(e) {
     e.target.src =
-      "http://xpenology.org/wp-content/themes/qaengine/img/default-thumbnail.jpg";
+      'http://xpenology.org/wp-content/themes/qaengine/img/default-thumbnail.jpg';
   }
 
   render() {
@@ -21,7 +21,7 @@ class PinCard extends Component {
       route,
       url
     } = this.props;
-    const aUrl = document.createElement("a");
+    const aUrl = document.createElement('a');
     aUrl.href = url;
 
     return (
@@ -38,7 +38,7 @@ class PinCard extends Component {
             size="mini"
             src={googlePhoto}
             as={Link}
-            to={`/user/${googleId}`}
+            to={`/pinit/user/${googleId}`}
           />
           <Card.Header>{title}</Card.Header>
           <Card.Meta>{aUrl.hostname}</Card.Meta>
